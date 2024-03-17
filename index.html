@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details Form</title>
+</head>
+<body>
+    <p>Personal Details</p> 
+
+    <form action="/action_page.php">
+        <label for="gender">Salutation</label> <br/>
+        <select name="gender" id="gender">
+          <option value="none">--None--</option>
+          <option value="mr">Mr.</option>
+          <option value="mrs">Mrs.</option>
+        </select>
+      </form>
+      <br>
+
+      <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" placeholder="abcd"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="abcd">
+      </form>
+
+      <br>
+
+      <form action="/action_page.php">
+        <p>Gender:
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Male</label>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Female</label><br>
+        </p> </form>
+
+      
+      <form action="/action_page.php">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+      </form>
+
+      <br>
+      <form action="/action_page.php">
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday">
+      </form>
+
+      <br>
+      <form action="/action_page.php">
+        <p><label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="5" cols="70"></textarea></p>
+      </form>
+
+      <input type="submit" value="Submit">
+</body>
+</html>
